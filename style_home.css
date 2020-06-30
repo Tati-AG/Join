@@ -1,0 +1,12 @@
+.container-fluid{
+
+}
+.col, .row{
+  justify-content: center;
+  text-align: center;
+}
+#espaco .col:not(#title){
+  max-width: 440px;
+  padding: 0;
+  margin: 10px;
+}
