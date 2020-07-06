@@ -1,0 +1,18 @@
+<svg id="Componente_8_1" data-name="Componente 8 – 1" xmlns="http://www.w3.org/2000/svg" width="146.542" height="143.134" viewBox="0 0 146.542 143.134">
+  <g id="Grupo_35770" data-name="Grupo 35770" transform="translate(-3922.13 1934.4)">
+    <g id="Printer" transform="translate(3921.13 -1936.4)">
+      <path id="Caminho_37625" data-name="Caminho 37625" d="M74.816,19.7a1.709,1.709,0,0,0-1.7-1.7H68V28.224h6.816Z" transform="translate(47.166 11.264)"/>
+      <path id="Caminho_37626" data-name="Caminho 37626" d="M22.816,18H17.7A1.709,1.709,0,0,0,16,19.7v8.52h6.816Z" transform="translate(10.56 11.264)"/>
+      <circle id="Elipse_21" data-name="Elipse 21" cx="3.5" cy="3.5" r="3.5" transform="translate(72.271 88.567)"/>
+      <path id="Caminho_37627" data-name="Caminho 37627" d="M90.159,105.639a1.7,1.7,0,0,1-1.7,1.7H30.52a1.7,1.7,0,0,1-1.7-1.7V46H22v66.455a1.709,1.709,0,0,0,1.7,1.7H95.271a1.709,1.709,0,0,0,1.7-1.7V46H90.159Z" transform="translate(14.783 30.975)"/>
+      <path id="Caminho_37628" data-name="Caminho 37628" d="M28,97.308H82.527V62.23l-6.816-6.816L57.673,73.452,71.8,87.583a1.7,1.7,0,1,1-2.41,2.41L45.04,65.638,28,82.678Z" transform="translate(19.007 37.602)"/>
+      <path id="Caminho_37629" data-name="Caminho 37629" d="M46.244,68.651l9.019,9.019L74.507,58.427a1.7,1.7,0,0,1,2.409,0l5.611,5.611V46H28V84.486L43.835,68.651a1.7,1.7,0,0,1,2.409,0ZM56.968,54.52a6.816,6.816,0,1,1-6.816,6.816,6.816,6.816,0,0,1,6.816-6.816Z" transform="translate(19.007 30.975)"/>
+      <path id="Caminho_37630" data-name="Caminho 37630" d="M96.975,3.7a1.709,1.709,0,0,0-1.7-1.7H39.04V17.336a1.709,1.709,0,0,1-1.7,1.7H22V39.487H96.975Z" transform="translate(14.783)"/>
+      <path id="Caminho_37631" data-name="Caminho 37631" d="M35.219,2.586,22.586,15.219H35.219Z" transform="translate(15.196 0.413)"/>
+      <rect id="Retângulo_1334" data-name="Retângulo 1334" width="7" height="7" transform="translate(115.271 76.567)"/>
+      <rect id="Retângulo_1335" data-name="Retângulo 1335" width="7" height="7" transform="translate(26.271 76.567)"/>
+      <ellipse id="Elipse_22" data-name="Elipse 22" cx="1.5" cy="2" rx="1.5" ry="2" transform="translate(129.271 54.567)"/>
+      <path id="Caminho_37632" data-name="Caminho 37632" d="M135.614,26H12.928A11.941,11.941,0,0,0,1,37.928V72.007A11.941,11.941,0,0,0,12.928,83.935H33.375V70.3h-8.52a1.709,1.709,0,0,1-1.7-1.7V58.376a1.709,1.709,0,0,1,1.7-1.7h98.83a1.709,1.709,0,0,1,1.7,1.7V68.6a1.709,1.709,0,0,1-1.7,1.7h-8.52V83.935h20.448a11.941,11.941,0,0,0,11.928-11.928V37.928A11.941,11.941,0,0,0,135.614,26ZM130.5,44.744a5.112,5.112,0,1,1,5.112-5.112A5.112,5.112,0,0,1,130.5,44.744Z" transform="translate(0 16.895)"/>
+    </g>
+  </g>
+</svg>
