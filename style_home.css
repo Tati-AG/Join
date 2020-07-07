@@ -62,6 +62,18 @@ h5{
   color: white;
   font: bold 24px/35px;
 }
+#work-space{
+  background: url(/img/____3096\ GERAL\ LATERAL\ SALAS.png) no-repeat center center;
+  background-size: cover;
+}
+#meeting-space{
+  background: url(/img/____3117\ SALA\ COM\ 3\ MESAS.png) no-repeat center center;
+  background-size: cover;
+}
+#work-table{
+  background: url(/img/____3165\ MESA\ VIDRO\ SAIDA.png) no-repeat center center;
+  background-size: cover;
+}
 .modal-header{
   border: none;
   padding-bottom: 0;
@@ -124,18 +136,6 @@ h5{
 .modal-body img{
   max-width: 100%;
   object-fit: contain;
-}
-#work-space{
-  background: url(/img/____3096\ GERAL\ LATERAL\ SALAS.png) no-repeat center center;
-  background-size: cover;
-}
-#meeting-space{
-  background: url(/img/____3117\ SALA\ COM\ 3\ MESAS.png) no-repeat center center;
-  background-size: cover;
-}
-#work-table{
-  background: url(/img/____3165\ MESA\ VIDRO\ SAIDA.png) no-repeat center center;
-  background-size: cover;
 }
 #servicos, #pics, #uniao{
   padding: 90px 0;
@@ -299,6 +299,9 @@ button.btn:hover, input.btn:hover, button.btn:active, input.btn:active{
 }
 #instagram img{
   width: 67px;
+}
+#linkedin a{
+  color: #2867B2;
 }
 #form_contact{
   max-width: 780px;

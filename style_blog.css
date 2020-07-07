@@ -1,0 +1,62 @@
+.container-fluid{
+  font-family: Poppins;
+  background-color: #FCFCFC;
+}
+.container-fluid, .col, .row{
+   justify-content: center;
+   text-align: center;
+   align-self: center;
+}
+.container-fluid > .row {
+  max-width: 1366px;
+  margin: auto;
+}
+#destaque > .col{
+  padding: 12px;
+}
+#destaque h4{
+  position: absolute;
+  bottom: 40px;
+  padding: 12px 40px;
+  background-color: black;
+  color: white;
+}
+#principal a h4{
+  bottom: 64px;
+}
+#secundarias .hero-img{
+  width: 100%;
+  padding-bottom: 60.5%;
+  background-size: cover;
+}
+#secundarias .col:first-child{
+  margin-bottom: 24px;
+}
+#secundarias .col:first-child .hero-img{
+  background-image: url(/img_blog/marten-bjork-ANGrwTKxjlk-unsplash.png);
+}
+#secundarias .col:nth-child(2) .hero-img{
+  background-image: url(/img_blog/cowomen-XRGzgDmfjdw-unsplash.png);
+}
+#principal .hero-img{
+  width: 100%;
+  padding-bottom: 63%;
+  background: url(/img_blog/annie-spratt-hCb3lIB8L8E-unsplash.png) no-repeat center center;
+  background-size: cover;
+}
+#social_media .col:not(#title){
+  padding: 15px 32px 90px;
+  max-width: 140px;
+}
+#social_media i{
+  font-size: 75px;
+}
+#facebook a{
+  color: #4267B2;
+}
+#instagram img{
+  width: 67px;
+}
+#linkedin a{
+  color: #2867B2;
+}
