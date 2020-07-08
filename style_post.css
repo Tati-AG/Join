@@ -1,0 +1,40 @@
+.container-fluid{
+  background-color: #FCFCFC;
+  padding: 44px 15px;
+}
+.container-fluid, .row, .col {
+  justify-content: center;
+  align-self: center;
+  text-align: center;
+}
+h1{
+  font: 500 48px/55px Poppins;
+  margin-bottom: 32px;
+}
+h2{
+  font: 500 32px/55px Poppins;
+  text-transform: uppercase;
+  margin-bottom: 32px;
+}
+h3{
+  font: 500 32px/48px Poppins;
+  padding-bottom: 16px;
+  border-bottom: 1px solid black;
+  margin-bottom: 40px;
+}
+p{
+  font: 16px/40px Poppins;
+  max-width: 1160px;
+  text-align: left;
+}
+p.side-text{
+  font: 16px/32px Poppins;
+  max-width: 730px;
+}
+#p_1st p{
+  max-width: 570px;
+}
+.container-fluid > .row{
+  max-width: 1200px;
+  margin: 44px auto;
+}
