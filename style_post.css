@@ -1,6 +1,6 @@
 .container-fluid{
   background-color: #FCFCFC;
-  padding: 44px 15px;
+  padding-top: 44px;
 }
 .container-fluid, .row, .col {
   justify-content: center;
@@ -20,11 +20,10 @@ h3{
   font: 500 32px/48px Poppins;
   padding-bottom: 16px;
   border-bottom: 1px solid black;
-  margin-bottom: 40px;
+  margin: 0 16px 40px;
 }
 p{
   font: 16px/40px Poppins;
-  max-width: 1160px;
   text-align: left;
 }
 p.side-text{
@@ -34,7 +33,72 @@ p.side-text{
 #p_1st p{
   max-width: 570px;
 }
+#p_5th p{
+  margin-left: auto;
+}
 .container-fluid > .row{
   max-width: 1200px;
-  margin: 44px auto;
+  margin: 0 auto 88px;
+}
+.col.img-col{
+  padding: 0;
+  border-radius: 5px;
+}
+#p_1st .img-col, #img_row .img-col{  
+  border: 1px solid #39E280;
+}
+#p_4th .img-col{
+  border: 1px solid #6A7DFE;
+}
+#p_5th .img-col{
+  border: 1px solid #FC4C21;
+}
+.col.img-col img{
+  margin: -24px 24px 24px -24px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: inherit;
+  box-shadow: 0 3px 6px #00000029;
+}
+.txt-col{
+  padding: 0;
+}
+#p_1st, #img_row, #p_4th, #p_5th{
+  padding-top: 24px;
+}
+#more_posts{
+  max-width: 1264px;
+  margin-bottom: 44px;
+}
+#more_posts .col:not(#title){
+  max-width: calc((100% / 3) - 64px);
+  background-color: white;
+  border-radius: 10px;
+  margin: 0 32px;
+  padding: 0;
+  box-shadow: 0 3px 6px #00000029;
+  min-width: 250px;
+}
+#more_posts img {
+  width: 100%;
+}
+h4{
+  font: bold 24px/24px Segoe UI;
+  text-transform: uppercase;
+  text-align: start;
+  color: #2C17B1;
+  margin: 23px 0 14px 23px;
+}
+#more_posts p{
+  font: 16px/24px Poppins;
+  color: black;
+  text-align: start;
+  padding: 0 23px 23px;
+  margin: 0;
+}
+a:hover{
+  text-decoration: none;
+}
+*:focus{
+  outline: none;
 }
