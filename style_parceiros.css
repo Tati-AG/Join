@@ -1,0 +1,38 @@
+.container-fluid{
+  background-color: #FCFCFC;
+  padding: 44px 15px;
+}
+h3{
+  font: 500 32px/48px Poppins;
+  padding-bottom: 16px;
+  border-bottom: 1px solid black;
+  margin: 0 16px 40px;
+}
+.container-fluid, .row, .col{
+  justify-content: center;
+  text-align: center;
+}
+#blog .col:not(#title){
+  max-width: 360px;
+  background-color: white;
+  border-radius: 10px;
+  margin: 0 32px 48px;
+  padding: 0;
+}
+#blog img {
+  width: 100%;
+}
+h4{
+  font: bold 24px/24px Segoe UI;
+  text-transform: uppercase;
+  text-align: start;
+  color: #2C17B1;
+  margin: 23px 0 14px 23px;
+}
+#blog p{
+  font: 16px/24px Poppins;
+  color: black;
+  text-align: start;
+  padding: 0 23px 23px;
+  margin: 0;
+}
