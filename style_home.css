@@ -1,3 +1,16 @@
+#menu{
+  background-color: white;
+}
+#menu .navbar-brand img{
+  width: 150px;
+}
+#menu li{
+  margin-left: 40px;
+}
+#menu a{
+  color: black;
+  font: 20px/32px Poppins;
+}
 .container-fluid{
  font-family: Poppins;
 }
