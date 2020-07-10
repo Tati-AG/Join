@@ -1,0 +1,45 @@
+#header{
+  background-color: white;
+  padding: 25px 15px;
+}
+#header .navbar-brand img{
+  width: 150px;
+}
+#header li{
+  margin-left: 40px;
+}
+#header a{
+  color: black;
+  font: 20px/32px Poppins;
+}
+#header a:hover, #footer a:hover{
+  color:#F05A28;
+  text-decoration: none;
+}
+#footer{
+  background-color: white;
+  padding: 22px 15px;
+}
+#footer .navbar-brand img{
+  width: 100px;
+}
+#footer .container-fluid div{
+  max-width: 400px;
+  padding: 10px 50px;
+  text-align: center;
+}
+#footer h5{
+  font: 500 14px/24px Poppins;
+  text-transform: uppercase;
+}
+#footer p{
+  font: 400 14px/24px Poppins;
+}
+#footer .navbar-header p{
+  font: 400 10px/20px Poppins;
+}
+#footer a{
+  color: black;
+  font: 14px/24px Poppins;
+  margin: 11px;
+}

@@ -1,5 +1,6 @@
 #menu{
   background-color: white;
+  padding: 25px 15px;
 }
 #menu .navbar-brand img{
   width: 150px;
@@ -11,8 +12,12 @@
   color: black;
   font: 20px/32px Poppins;
 }
-.container-fluid{
- font-family: Poppins;
+#menu a:hover{
+  color:#F05A28;
+  text-decoration: none;
+}
+ .container-fluid:not(.container-header){
+  margin-top: 100px;
 }
 .container-fluid, .col, .row{
   justify-content: center;
@@ -367,4 +372,7 @@ mark{
 #form_contact .invalid-feedback{
   color: #F23E3E;
   font: 500 14px/21px Poppins;
+}
+*:focus{
+  outline: none 0px;
 }
