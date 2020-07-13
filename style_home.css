@@ -1,12 +1,12 @@
 #menu{
   background-color: white;
-  padding: 25px 15px;
+  padding: 25px 0;
 }
 #menu .navbar-brand img{
   width: 150px;
 }
 #menu li{
-  margin-left: 40px;
+  margin: 10px 0 0 2rem;
 }
 #menu a{
   color: black;
@@ -16,7 +16,11 @@
   color:#F05A28;
   text-decoration: none;
 }
- .container-fluid:not(.container-header){
+.container-header{
+  max-width: 1200px;
+  margin: auto;
+}
+.container-fluid:not(.container-header){
   margin-top: 100px;
 }
 .container-fluid, .col, .row{

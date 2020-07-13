@@ -1,6 +1,6 @@
 .container-fluid{
   background-color: #FCFCFC;
-  padding-top: 44px;
+  padding: 44px 30px 0;
 }
 .container-fluid, .row, .col {
   justify-content: center;
@@ -40,6 +40,42 @@ p.side-text{
   max-width: 1200px;
   margin: 0 auto 88px;
 }
+@media only screen and (max-width:1150px){
+  #img_row{
+    margin: 0 -12px 88px 12px;
+  }
+  #p_4th .img-col{
+    margin: 0 -24px 0 24px;
+  }
+}
+@media only screen and (max-width: 768px){
+  .container-fluid{
+    padding: 44px 20px 0;
+  } 
+  #p_4th .col.txt-col, #p_5th .col.txt-col{
+    padding: 0;
+  }
+  .container-fluid > .row{
+    margin-bottom: 66px;
+  }
+  #p_1st .img-col{
+    max-width: 400px;
+    margin: 66px auto 0;
+  }
+  #p_1st p{
+    max-width: unset;
+  }
+  #p_4th .img-col, #p_5th .img-col{
+    max-width: 400px;
+    margin: 0 auto 66px;
+  }
+}
+@media only screen and (max-width: 460px){
+  .row:not(#img_row) .img-col{
+    margin-right: -12px;
+    margin-left: 12px;
+  }
+}
 .col.img-col{
   padding: 0;
   border-radius: 5px;
@@ -60,24 +96,38 @@ p.side-text{
   border-radius: inherit;
   box-shadow: 0 3px 6px #00000029;
 }
-.txt-col{
-  padding: 0;
+#p_5th .txt-col{
+  padding: 0 0 0 20px;
+}
+#p_4th .txt-col{
+  padding: 0 20px 0 0;
 }
 #p_1st, #img_row, #p_4th, #p_5th{
   padding-top: 24px;
 }
 #more_posts{
   max-width: 1264px;
-  margin-bottom: 44px;
+  margin-bottom: 0;
 }
 #more_posts .col:not(#title){
   max-width: calc((100% / 3) - 64px);
   background-color: white;
   border-radius: 10px;
-  margin: 0 32px;
+  margin: 0 32px 44px;
   padding: 0;
   box-shadow: 0 3px 6px #00000029;
   min-width: 250px;
+}
+@media only screen and (max-width:918px){
+  #more_posts .col:not(#title){
+    max-width: calc(50% - 64px);
+    min-width: 200px;
+  }
+}
+@media only screen and (max-width:650px){
+  #more_posts .col:not(#title){
+    max-width: calc(100% - 64px);
+  }
 }
 #more_posts img {
   width: 100%;

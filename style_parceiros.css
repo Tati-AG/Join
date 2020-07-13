@@ -12,9 +12,6 @@ h3{
   justify-content: center;
   text-align: center;
 }
-#title{
-  max-width: 1280px;
-}
 #blog .col:not(#title){
   max-width: calc(100% / 3 - 64px);
   background-color: white;
@@ -98,7 +95,7 @@ li.page-item.disabled .page-link{
   outline: none 0px;
   box-shadow: inherit;
 }
-#index, #blog{
+#index, #blog, #title{
   max-width: 1386px;
   margin: 20px auto 0;
 }
