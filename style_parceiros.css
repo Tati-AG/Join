@@ -12,13 +12,30 @@ h3{
   justify-content: center;
   text-align: center;
 }
+#title{
+  max-width: 1280px;
+}
 #blog .col:not(#title){
-  max-width: 360px;
+  max-width: calc(100% / 3 - 64px);
   background-color: white;
   border-radius: 10px;
   margin: 0 32px 48px;
   padding: 0;
   box-shadow: 0 3px 6px #00000029;
+}
+@media only screen and (max-width: 990px){
+  #blog .col:not(#title){
+    max-width: calc(50% - 64px);
+  }
+}
+@media only screen and (max-width: 575px){
+  #blog .col:not(#title){
+    max-width: calc(100% - 64px);
+  }
+  #nav_bar li.page-item.next .page-link, #nav_bar li.page-item.prev .page-link{
+    width: 60px;
+    margin: 0 20px
+  }
 }
 #blog img {
   width: 100%;
@@ -65,6 +82,11 @@ li.page-item.next .page-link, li.page-item.prev .page-link{
   text-transform: uppercase;
   box-shadow: 0 3px 6px #00000029;
 }
+li.page-item.next mark, li.page-item.prev mark{
+  color: inherit;
+  background-color: inherit;
+  padding: 0 10px;
+}
 li.page-item a.page-link:hover{
   color: black;
   background-color: white;
@@ -76,7 +98,7 @@ li.page-item.disabled .page-link{
   outline: none 0px;
   box-shadow: inherit;
 }
-#index{
+#index, #blog{
   max-width: 1386px;
   margin: 20px auto 0;
 }

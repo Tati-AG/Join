@@ -205,6 +205,12 @@ h5{
   height: 100%;
   object-fit: cover;
 }
+#zen{
+  background-image: url(/img/Polígono\ 1.png), url(/img/Polígono\ 2.png);
+  background-position: top left, top right;
+  background-size: 30% auto;
+  background-repeat: no-repeat;
+}
 #zen .col{
   max-width: 750px;
 }
