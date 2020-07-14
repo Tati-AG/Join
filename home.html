@@ -13,7 +13,7 @@
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/f15ae48ffc.js" crossorigin="anonymous"></script>
     <!-- Header -->
-    <nav class="navbar navbar-default fixed-top" id="menu">
+    <!--<nav class="navbar navbar-default fixed-top" id="menu">
       <button type="button" class="navbar-toggle d-md-none" data-toggle="collapse" data-target="#menu_toggle">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -36,7 +36,7 @@
           <li><a href="#contact">Fale Conosco</a></li>
         </ul>
       </div>
-    </nav>
+    </nav>-->
   </head>
   <body>
     <div class="container-fluid">
@@ -79,7 +79,7 @@
           <div class="modal-dialog">
             <div class="modal-content">
               <div class="modal-header">
-                <button class="close" type="button" data-dismiss="modal">&times;</button>
+                <button class="close" type="button" data-dismiss="modal">&#215;</button>
               </div>
               <div class="modal-body">
                 <h3 class="modal-title">Espaço de Trabalho</h3>
@@ -91,13 +91,13 @@
                   <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam dolore odit inventore velit cum, sequi laboriosam enim cumque nemo. Sapiente laboriosam nihil rem tempora voluptatibus voluptate unde alias perspiciatis reprehenderit.</p>
                 </ul>
                 <div class="row justify-content-lg-between">
-                  <div class="col col-lg-4 pop_up">
+                  <div class="col col-12 col-md-4 pop_up">
                     <img src="/img/____3126 MESA VIDRO PISO TERREO.png" alt="">
                   </div>
-                  <div class="col col-lg-4 pop_up">
+                  <div class="col col-12 col-md-4 pop_up">
                     <img src="/img/____3118 SALA COM 3 MESAS.png" alt="">
                   </div>
-                  <div class="col col-lg-4 pop_up">
+                  <div class="col col-12 col-md-4 pop_up">
                     <img src="/img/____3137 MOVIOLA.png" alt=""></div>
                 </div>
               </div>
@@ -109,33 +109,76 @@
         <div class="col col-12" id="title">
           <h2>Serviços</h2>
         </div>
-        <div class="col col-lg-3 col-md-4 col-sm-6 col-xs-12">
-          <img src="/img/snack.svg" alt="" id="snack">
-          <h5>Maquina de Snacks e Comidas</h5>
+        <div class="col col-lg-3 col-md-4 col-sm-6 col-12">
+          <a href="#" data-toggle="modal" data-target="#servico_popup">
+            <img src="/img/snack.svg" alt="" id="snack">
+            <h5>Maquina de Snacks e Comidas</h5>
+          </a>
         </div>
-        <div class="col col-lg-3 col-md-4 col-sm-6 col-xs-12">
-          <img src="/img/print.svg" alt="" id="print">
-          <h5>Impressora</h5>
+        <div class="col col-lg-3 col-md-4 col-sm-6 col-12">
+          <a href="#" data-toggle="modal" data-target="#servico_popup">
+            <img src="/img/print.svg" alt="" id="print">
+            <h5>Impressora</h5>
+          </a>
         </div>
-        <div class="col col-lg-3 col-md-4 col-sm-6 col-xs-12">
-          <img src="/img/coffe.svg" alt="" id="coffe">
-          <h5>Café</h5>
+        <div class="col col-lg-3 col-md-4 col-sm-6 col-12">
+          <a href="#" data-toggle="modal" data-target="#servico_popup">
+            <img src="/img/coffe.svg" alt="" id="coffe">
+            <h5>Café</h5>
+          </a>
         </div>
-        <div class="col col-lg-3 col-md-4 col-sm-6 col-xs-12">
-          <img src="img/office.svg" alt="" id="office">
-          <h5>Secretariado</h5>
+        <div class="col col-lg-3 col-md-4 col-sm-6 col-12">
+          <a href="#" data-toggle="modal" data-target="#servico_popup">
+            <img src="img/office.svg" alt="" id="office">
+            <h5>Secretariado</h5>
+          </a>
         </div>
-        <div class="col col-lg-3 col-md-4 col-sm-6 col-xs-12">
-          <img src="/img/lbulb.svg" alt="" id="lightbulb">
-          <h5>Luz</h5>
+        <div class="col col-lg-3 col-md-4 col-sm-6 col-12">
+          <a href="#" data-toggle="modal" data-target="#servico_popup">
+            <img src="/img/lbulb.svg" alt="" id="lightbulb">
+            <h5>Luz</h5>
+          </a>
         </div>
-        <div class="col col-lg-3 col-md-4 col-sm-6 col-xs-12">
-          <img src="/img/clean.svg" alt="" id="clean">
-          <h5>Serviço de Limpeza</h5>
+        <div class="col col-lg-3 col-md-4 col-sm-6 col-12">
+          <a href="#" data-toggle="modal" data-target="#servico_popup">
+            <img src="/img/clean.svg" alt="" id="clean">
+            <h5>Serviço de Limpeza</h5>
+          </a>
         </div>
-        <div class="col col-lg-3 col-md-4 col-sm-6 col-xs-12">
-          <img src="/img/wifi.svg" alt="" id="wifi">
-          <h5>Internet</h5>
+        <div class="col col-lg-3 col-md-4 col-sm-6 col-12">
+          <a href="#" data-toggle="modal" data-target="#servico_popup">
+            <img src="/img/wifi.svg" alt="" id="wifi">
+            <h5>Internet</h5>
+          </a>
+        </div>
+        <div class="modal fade" id="servico_popup" role="dialog">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">&#215;</button>
+              </div>
+              <div class="modal-body">
+                <h3 class="modal-title">Serviços</h3>
+                <ul class="justify-content-start">
+                  <li>4 Mesas</li>
+                  <li>16 Cadeiras</li>
+                  <li>2 Televisões</li>
+                  <li>Ar Condicionado</li>
+                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam dolore odit inventore velit cum, sequi laboriosam enim cumque nemo. Sapiente laboriosam nihil rem tempora voluptatibus voluptate unde alias perspiciatis reprehenderit.</p>
+                </ul>
+                <div class="row justify-content-lg-between">
+                  <div class="col col-12 col-md-4 pop_up">
+                    <img src="/img/____3126 MESA VIDRO PISO TERREO.png" alt="">
+                  </div>
+                  <div class="col col-12 col-md-4 pop_up">
+                    <img src="/img/____3118 SALA COM 3 MESAS.png" alt="">
+                  </div>
+                  <div class="col col-12 col-md-4 pop_up">
+                    <img src="/img/____3137 MOVIOLA.png" alt=""></div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       <div class="row" id="tour">
@@ -245,21 +288,21 @@
         </div>
         <div class="w-100"></div>
         <div class="col col-lg-4 col-md-6 col-12">
-          <a href="#">
+          <a href="/post_modelo.html">
             <img src="/img/shridhar-gupta-dZxQn4VEv2M-unsplash.png" alt="" id="post1_img">
             <h4>Artigo</h4>
             <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna</p>
           </a>
         </div>
         <div class="col col-lg-4 col-md-6 col-12">
-          <a href="#">
+          <a href="/post_modelo.html">
             <img src="/img/shridhar-gupta-dZxQn4VEv2M-unsplash.png" alt="" id="post1_img">
             <h4>Artigo</h4>
             <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna</p>
           </a>
         </div>
         <div class="col col-lg-4 col-md-6 col-12">
-          <a href="#">
+          <a href="/post_modelo.html">
             <img src="/img/shridhar-gupta-dZxQn4VEv2M-unsplash.png" alt="" id="post1_img">
             <h4>Artigo</h4>
             <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna</p>
@@ -267,21 +310,21 @@
         </div>
         <div class="w-100 d-none d-lg-block"></div>
         <div class="col col-lg-4 col-md-6 col-12">
-          <a href="#">
+          <a href="/post_modelo.html">
             <img src="/img/shridhar-gupta-dZxQn4VEv2M-unsplash.png" alt="" id="post1_img">
             <h4>Artigo</h4>
             <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna</p>
           </a>
         </div>
         <div class="col col-lg-4 col-md-6 col-12">
-          <a href="#">
+          <a href="/post_modelo.html">
             <img src="/img/shridhar-gupta-dZxQn4VEv2M-unsplash.png" alt="" id="post1_img">
             <h4>Artigo</h4>
             <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna</p>
           </a>
         </div>
         <div class="col col-lg-4 col-md-6 col-12">
-          <a href="#">
+          <a href="/post_modelo.html">
             <img src="/img/shridhar-gupta-dZxQn4VEv2M-unsplash.png" alt="" id="post1_img">
             <h4>Artigo</h4>
             <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna</p>
@@ -289,7 +332,7 @@
         </div>
         <div class="w-100"></div>
         <div class="col col-12" id="button">
-          <a href="#">
+          <a href="/blog.html">
             <button class="btn btn-outline-light">Ver mais</button>
           </a>
         </div>

@@ -108,12 +108,13 @@ h5{
   padding: 0;
   background-color: #F23E3E;
   color: white;
-  font-size: 31px;
+  font-size: 27px;
   text-shadow: none;
   opacity: 1;
   font-weight: 500;
+  font-family: serif;
 }
-#space_popup .close:focus, #space_popup button.close:hover{
+#space_popup .close:focus, #space_popup button.close:hover, #servico_popup .close:focus, #servico_popup button.close:hover{
   opacity: 1;
   outline: unset;  
 }
@@ -124,7 +125,7 @@ h5{
 .modal-body{
   padding: 0 55px 44px;
 }
-#space_popup ul{
+#space_popup ul, #servico_popup ul{
   list-style: none;
   padding: 0;
 }
@@ -133,12 +134,12 @@ h5{
   text-transform: uppercase;
   margin-bottom: 55px;
 }
-#space_popup li{
+#space_popup li, #servico_popup li{
   text-align: start;
   font: 500 28px/42px Poppins;
   padding-bottom: 16px;
 }
-#space_popup li:before{
+#space_popup li:before, #servico_popup li:before{
   content: "\2022";
   color: #2C17B1;
   font-weight: 900;
@@ -146,7 +147,7 @@ h5{
   font-size: 30px;
   margin-right: 14px;
 }
-#space_popup p{
+#space_popup p, #servico_popup p{
   font: 500 24px/32px Poppins;
   padding: 40px 0 56px;
 }
@@ -169,15 +170,25 @@ h5{
   background: linear-gradient(white 50%, #F2F2F2 50%);
   margin-bottom: 5px;
 }
-#servicos .col:not(#title){
+#servicos > .col:not(#title){
   align-self: stretch;
   background-color: #F2F2F2;
   max-width: 220px;
   min-height: 280px;
   margin: 28px;
-  padding: 45px 20px;
+  padding: 0;
 }
-#servicos img{
+#servicos .col a{
+  display: inline-block;
+  padding: 45px 20px;
+  color: black;
+  width: 100%;
+  height: 100%;
+}
+#servicos .col a:hover{
+  text-decoration: none;
+}
+#servicos > .col img{
   height: 170px;
   object-fit: none;
   width: min-content;
@@ -217,6 +228,7 @@ h5{
 }
 #zen .col{
   max-width: 750px;
+  margin-bottom: 24px;
 }
 #zen h2{
   margin: 65px auto 35px;
@@ -237,7 +249,7 @@ h5{
   max-width: 25%;
 }
 .nav-link{
-  padding: 24px 8px;
+  padding: 24px 8px 0;
   max-width: 180px;
 }
 .nav-link.active{
@@ -258,11 +270,23 @@ h5{
   background: linear-gradient(#101010 50%, #2C17B1 50%);
 }
 #blog .col:not(#button):not(#title){
-  max-width: 360px;
+  max-width: calc(100% / 3 - 64px);
+  min-width: 260px;
   background-color: white;
   border-radius: 10px;
   margin: 0 32px 48px;
   padding: 0;
+}
+@media only screen and (max-width:972px){
+  #blog .col:not(#button):not(#title){
+    max-width: calc(50% - 64px);
+    min-width: 200px;
+  }
+}
+@media only screen and (max-width:650px){
+  #blog .col:not(#button):not(#title){
+    max-width: calc(100% - 64px);
+  }
 }
 #blog img {
   width: 100%;
