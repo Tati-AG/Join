@@ -1,4 +1,4 @@
-.container-fluid{
+.container-fluid {
   background-color: #FCFCFC;
   padding: 44px 30px 0;
 }
@@ -7,110 +7,85 @@
   align-self: center;
   text-align: center;
 }
-h1{
+h1 {
   font: 500 48px/55px Poppins;
   margin-bottom: 32px;
 }
-h2{
+h2 {
   font: 500 32px/55px Poppins;
   text-transform: uppercase;
   margin-bottom: 32px;
 }
-h3{
+h3 {
   font: 500 32px/48px Poppins;
   padding-bottom: 16px;
   border-bottom: 1px solid black;
   margin: 0 16px 40px;
 }
-p{
+p {
   font: 16px/40px Poppins;
   text-align: left;
 }
-p.side-text{
+p.side-text {
   font: 16px/32px Poppins;
   max-width: 730px;
 }
-#p_1st p{
+#p_1st p {
   max-width: 570px;
 }
-#p_5th p{
+#p_5th p {
   margin-left: auto;
 }
-.container-fluid > .row{
+.container-fluid > .row {
   max-width: 1200px;
   margin: 0 auto 88px;
 }
-@media only screen and (max-width: 768px){
-  .container-fluid{
-    padding: 44px 20px 0;
-  } 
-  #p_4th .col.txt-col, #p_5th .col.txt-col{
-    padding: 0;
-  }
-  .container-fluid > .row{
-    margin-bottom: 66px;
-  }
-  #p_1st .col.img-col{
-    max-width: 400px;
-    margin: 0 -12px 66px 12px;
-  }
-  #p_1st p{
-    max-width: unset;
-  }
-  #p_4th .col.img-col, #p_5th .col.img-col{
-    max-width: 400px;
-    margin-bottom: 66px;
-  }
-  #img_row{
-    height: 44vw;
-  }
-}
-#img_row .img-col{
+#img_row .img-col {
   margin: 0 -12px 88px 12px;
 }
-.col.img-col{
+.col.img-col {
   padding: 0;
   border-radius: 5px;
 }
-#p_1st .img-col{
+#p_1st .img-col {
   margin-left: calc(100% / 12 - 12px);
 }
-#p_1st .img-col, #img_row .img-col{  
+#p_1st .img-col, #img_row .img-col {  
   border: 1px solid #39E280;
 }
-#p_4th .img-col{
+#p_4th .img-col {
   border: 1px solid #6A7DFE;
   margin-left: calc(4% + 12px);
   margin-right: -12px;
   max-width: calc(100% / 3 - 4%);
 }
-#p_5th .img-col{
+#p_5th .img-col {
   border: 1px solid #FC4C21;
   margin-right: calc(4% - 12px);
   margin-left: 12px;
   max-width: calc(100% / 3 - 4%);
 }
-.col.img-col img{
+.col.img-col img {
   margin: -24px 24px 24px -24px;
   width: 100%;
   object-fit: cover;
   border-radius: inherit;
   box-shadow: 0 3px 6px #00000029;
 }
-#p_5th .txt-col{
+#p_5th .txt-col {
   padding: 0 0 0 4%;
 }
-#p_4th .txt-col{
+#p_4th .txt-col {
   padding: 0 4% 0 0;
 }
-#p_1st, #img_row, #p_4th, #p_5th{
+#p_1st, #img_row, #p_4th, #p_5th {
   padding-top: 24px;
 }
-#more_posts{
+#more_posts {
   max-width: 1264px;
   margin-bottom: 0;
 }
-#more_posts .col:not(#title){
+#more_posts .col:not(#title) {
   max-width: calc((100% / 3) - 64px);
   background-color: white;
   border-radius: 10px;
@@ -119,37 +94,62 @@ p.side-text{
   box-shadow: 0 3px 6px #00000029;
   min-width: 250px;
 }
-@media only screen and (max-width:918px){
-  #more_posts .col:not(#title){
-    max-width: calc(50% - 64px);
-    min-width: 200px;
-  }
-}
-@media only screen and (max-width:650px){
-  #more_posts .col:not(#title){
-    max-width: calc(100% - 64px);
-  }
-}
 #more_posts img {
   width: 100%;
 }
-h4{
+h4 {
   font: bold 24px/24px Segoe UI;
   text-transform: uppercase;
   text-align: start;
   color: #2C17B1;
   margin: 23px 0 14px 23px;
 }
-#more_posts p{
+#more_posts p {
   font: 16px/24px Poppins;
   color: black;
   text-align: start;
   padding: 0 23px 23px;
   margin: 0;
 }
-a:hover{
+a:hover {
   text-decoration: none;
 }
-*:focus{
+@media only screen and (max-width:650px) {
+  #more_posts .col:not(#title) {
+    max-width: calc(100% - 64px);
+  }
+}
+@media only screen and (max-width: 768px) {
+  .container-fluid {
+    padding: 44px 20px 0;
+  } 
+  #p_4th .col.txt-col, #p_5th .col.txt-col {
+    padding: 0;
+  }
+  .container-fluid > .row {
+    margin-bottom: 66px;
+  }
+  #p_1st .col.img-col {
+    max-width: 400px;
+    margin: 0 -12px 66px 12px;
+  }
+  #p_1st p {
+    max-width: unset;
+  }
+  #p_4th .col.img-col, #p_5th .col.img-col {
+    max-width: 400px;
+    margin-bottom: 66px;
+  }
+  #img_row {
+    height: 44vw;
+  }
+}
+@media only screen and (max-width:918px) {
+  #more_posts .col:not(#title) {
+    max-width: calc(50% - 64px);
+    min-width: 200px;
+  }
+}
+*:focus {
   outline: none;
 }

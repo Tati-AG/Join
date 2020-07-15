@@ -1,8 +1,8 @@
-.container-fluid{
+.container-fluid {
   font-family: Poppins;
   background-color: #FCFCFC;
 }
-.container-fluid, .col, .row{
+.container-fluid, .col, .row {
    justify-content: center;
    text-align: center;
    align-self: center;
@@ -11,10 +11,10 @@
   max-width: 1366px;
   margin: auto;
 }
-#destaque > .col{
+#destaque > .col {
   padding: 12px;
 }
-#destaque h4{
+#destaque h4 {
   position: absolute;
   bottom: 40px;
   padding: 12px 40px;
@@ -22,33 +22,33 @@
   color: white;
   max-width: calc(100% - 24px);
 }
-#principal a h4{
+#principal a h4 {
   bottom: 64px;
 }
-#secundarias .hero-img{
+#secundarias .hero-img {
   width: 100%;
   padding-bottom: 61.5%;
   background-size: cover;
 }
-#secundarias .col:first-child{
+#secundarias .col:first-child {
   margin-bottom: 24px;
 }
-#secundarias .col:first-child .hero-img{
+#secundarias .col:first-child .hero-img {
   background-image: url(/img_blog/marten-bjork-ANGrwTKxjlk-unsplash.png);
 }
-#secundarias .col:nth-child(2) .hero-img{
+#secundarias .col:nth-child(2) .hero-img {
   background-image: url(/img_blog/cowomen-XRGzgDmfjdw-unsplash.png);
 }
-#principal .hero-img{
+#principal .hero-img {
   width: 100%;
   padding-bottom: 63%;
   background: url(/img_blog/annie-spratt-hCb3lIB8L8E-unsplash.png) no-repeat center center;
   background-size: cover;
 }
-#categorias{
+#categorias {
   padding: 60px 0;
 }
-#categorias h3{
+#categorias h3 {
   width: 100%;
   text-align: left;
   padding: 16px;
@@ -56,72 +56,62 @@
   text-transform: uppercase;
   border-bottom: 2px solid black;
 }
-#index{
+#index {
   max-width: 1386px;
   margin-bottom: 64px;
 }
-#index .col{
+#index .col {
   max-width: calc(25% - 48px);
   margin: 24px;
   padding: 24px;
   text-align: left;
   border-radius: 5px;
 }
-@media only screen and (max-width:990px){
-  #index .col{
-    max-width: calc(50% - 48px);
-  }
-}
-@media only screen and (max-width:575px){
-  #index .col{
-    max-width: calc(100% - 48px);
-  }
-}
-#index p{
+#index p {
   color: white;
   font: 16px/24px Poppins;
 }
-#index h2{
+#index h2 {
   color: white;
   font: 24px/35px Poppins;
   padding: 12px 0 4px;
 }
-#index a:hover, #index a:focus{
+#index a:hover, #index a:focus {
   text-decoration: none;
   outline: none 0px;
 }
-#box_p{
+#box_p {
   background-color: #39E280;
 }
-#box_n{
+#box_n {
   background-color: #16D1F0;
 }
-#box_i{
+#box_i {
   background-color: #6A7DFE;
 }
-#box_c{
+#box_c {
   background-color: #FC4C21;
 }
-#categorias .row:not(#index){
+#categorias .row:not(#index) {
   max-width: 970px;
   padding: 24px;
   margin-bottom: 24px;
 }
-#article_n, #article_c{
+#article_n, #article_c {
   margin-left: auto;
 }
-#categorias .row .txt-col:nth-child(2){
+#categorias .row .txt-col:nth-child(2) {
   text-align: left;
   justify-content: flex-start;
   padding-left: 80px;
 }
-#categorias .row .txt-col:first-child{
+#categorias .row .txt-col:first-child {
   text-align: right;
   justify-content: flex-end;
   padding-right: 80px;
   margin-inline-start: auto;
 }
-#categorias .txt-col h4{
+#categorias .txt-col h4 {
   font: 600 24px/35px Poppins;
   color: white;
   border-radius: 5px;
@@ -130,16 +120,16 @@
   text-align: center;
   margin-inline-start: inherit;
 }
-#categorias .txt-col h5{
+#categorias .txt-col h5 {
   font: 500 24px/35px Poppins;
   margin: 24px 0;
 }
-#categorias .txt-col p{
+#categorias .txt-col p {
   font: 16px/25px Poppins;
   max-width: 360px;
   margin-inline-start: inherit;
 }
-#categorias .txt-col button{
+#categorias .txt-col button {
   color: white;
   background-color: black;
   font: 24px/35px Poppins;
@@ -150,82 +140,92 @@
   border: none;
   box-shadow: 0 3px 6px #00000029;
 }
-#categorias .txt-col button:hover{
+#categorias .txt-col button:hover {
   background-color: #FCFCFC;
   color: black;
 }
-#categorias .img-col{
+#categorias .img-col {
   padding: 0;
   border-radius: 5px;
   max-width: calc(50% - 12px);
 }
-@media only screen and (max-width: 768px){
-  #categorias .img-col{
-    width: calc(100% - 12px);
-    max-width: 400px;
-  }
-  #categorias .row .col.txt-col{
-    max-width: 400px;
-    padding: 30px 10px 0;
-    margin: auto;
-  }
-  #article_p.row .txt-col h4, #article_p.row .txt-col p, #article_i.row .txt-col h2, #article_i.row .txt-col p{
-    margin-inline-start: 0;
-  }
-}
-#article_p h4{
+#article_p h4 {
   background-color: #39E280;
 }
-#article_p .img-col{
+#article_p .img-col {
   border: 1px solid #39E280;
   margin-left: 12px;
 }
-#article_n h4{
+#article_n h4 {
   background-color: #16D1F0;
 }
-#article_n .img-col{
+#article_n .img-col {
   border: 1px solid #16D1F0;
   margin-right: 12px;
 }
-#article_i h4{
+#article_i h4 {
   background-color: #6A7DFE;
 }
-#article_i .img-col{
+#article_i .img-col {
   border: 1px solid #6A7DFE;
   margin-left: 12px;
 }
-#article_c h4{
+#article_c h4 {
   background-color: #FC4C21;
 }
-#article_c .img-col{
+#article_c .img-col {
   border: 1px solid #FC4C21;
   margin-right: 12px;
 }
-#categorias .img-col:first-child img{
+#categorias .img-col:first-child img {
   margin: -24px 24px 24px -24px;
   width: 100%;
   object-fit: cover;
   border-radius: inherit;
 }
-#categorias .img-col:nth-child(2) img{
+#categorias .img-col:nth-child(2) img {
   margin: -24px -24px 24px 24px;
   width: 100%;
   object-fit: cover;
   border-radius: inherit;
 }
-#social_media .col:not(#title){
+#social_media .col:not(#title) {
   padding: 15px 32px 40px;
   max-width: 140px;
 }
-#social_media i{
+#social_media i {
   font-size: 75px;
 }
-#facebook a{
+#facebook a {
   color: #4267B2;
 }
-#instagram img{
+#instagram img {
   width: 67px;
 }
-#linkedin a{
+#linkedin a {
   color: #2867B2;
+}
+@media only screen and (max-width: 990px) {
+  #index .col {
+    max-width: calc(50% - 48px);
+  }
+}
+@media only screen and (max-width: 768px) {
+  #categorias .img-col {
+    width: calc(100% - 12px);
+    max-width: 400px;
+  }
+  #categorias .row .col.txt-col {
+    max-width: 400px;
+    padding: 30px 10px 0;
+    margin: auto;
+  }
+  #article_p.row .txt-col h4, #article_p.row .txt-col p, #article_i.row .txt-col h2, #article_i.row .txt-col p {
+    margin-inline-start: 0;
+  }
+}
+@media only screen and (max-width: 575px) {
+  #index .col {
+    max-width: calc(100% - 48px);
+  }
 }

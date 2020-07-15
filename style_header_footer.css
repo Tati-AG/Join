@@ -1,81 +1,81 @@
-#header{
+#header {
   background-color: white;
   padding: 25px 15px 15px;
   box-shadow: 0 3px 6px #00000029;
 }
-#header .navbar-brand img{
+#header .navbar-brand img {
   width: 150px;
   margin-bottom: 10px;
 }
-#header li{
+#header li {
   margin-left: 2rem;
 }
-#header a{
+#header a {
   color: black;
   font: 20px/32px Poppins;
 }
-#header a:hover, #footer a:hover{
+#header a:hover, #footer a:hover {
   color:#F05A28;
   text-decoration: none;
 }
-#header .navbar-toggler, #header .navbar-toggler:focus{ 
+#header .navbar-toggler, #header .navbar-toggler:focus { 
   box-shadow: 0 3px 6px #00000029;
   outline: none;
 }
-#header .navbar-toggler-icon{
+#header .navbar-toggler-icon {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(240, 90, 40, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
-#menu_toggle ul{
+#menu_toggle ul {
   border-top: 1px solid #F05A28;
   padding-top: 15px;
   margin-top: 15px;
 }
-#menu_toggle li{
+#menu_toggle li {
   margin: 10px auto;
 }
-#footer{
+#footer {
   background-color: white;
   padding: 22px 15px;
 }
-#footer .navbar-brand img{
+#footer .navbar-brand img {
   width: 100px;
 }
-#footer .container-fluid div{
+#footer .container-fluid div {
   width: inherit;
   max-width: 380px;
   padding: 10px calc(20px + 2%);
   text-align: center;
 }
-@media only screen and (min-width:990px) and (max-width: 1170px){
-  #footer .container-fluid div{
-    width: 28%;
-  }
-  #footer div .navbar-footer, #footer div .categorias{
-    width: 22%;
-  }
-}
-@media only screen and (min-width:1170px) and (max-width:1430px){
-  #footer div.container-fluid div{
-    width: 25%;
-  }
-}
-@media only screen and (min-width:1430px){
-  nav#footer div.container-fluid div{
-    width: max-content;
-  }
-}
-#footer h5{
+#footer h5 {
   font: 500 14px/24px Poppins;
   text-transform: uppercase;
 }
-#footer p{
+#footer p {
   font: 400 14px/24px Poppins;
 }
-#footer .navbar-header p{
+#footer .navbar-header p {
   font: 400 10px/20px Poppins;
 }
-#footer a{
+#footer a {
   color: black;
   font: 14px/24px Poppins;
   margin: 11px;
+}
+@media only screen and (min-width: 990px) and (max-width: 1170px) {
+  #footer .container-fluid div {
+    width: 28%;
+  }
+  #footer div .navbar-footer, #footer div .categorias {
+    width: 22%;
+  }
+}
+@media only screen and (min-width: 1170px) and (max-width: 1430px) {
+  #footer div.container-fluid div {
+    width: 25%;
+  }
+}
+@media only screen and (min-width: 1430px) {
+  nav#footer div.container-fluid div {
+    width: max-content;
+  }
 }

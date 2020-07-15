@@ -1,110 +1,110 @@
-#menu{
+#menu {
   background-color: white;
   padding: 15px;
 }
-#menu .navbar-brand img{
+#menu .navbar-brand img {
   width: 150px;
   margin-bottom: 10px;
 }
-#menu li{
+#menu li {
   margin-left: 2rem;
 }
-#menu a{
+#menu a {
   color: black;
   font: 20px/32px Poppins;
 }
-#menu a:hover{
+#menu a:hover {
   color:#F05A28;
   text-decoration: none;
 }
-#menu .navbar-toggler, #menu .navbar-toggler:focus{ 
+#menu .navbar-toggler, #menu .navbar-toggler:focus { 
   box-shadow: 0 3px 6px #00000029;
   outline: none;
   margin-bottom: 10px;
 }
-#menu .navbar-toggler-icon{
+#menu .navbar-toggler-icon {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(240, 90, 40, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
-#menu_toggle ul{
+#menu_toggle ul {
   border-top: 1px solid #F05A28;
   padding-top: 15px;
   margin-top: 15px;
 }
-#menu_toggle li{
+#menu_toggle li {
   margin: 10px auto;
 }
-.container-header{
+.container-header {
   max-width: 1200px;
   margin: auto;
 }
-.container-fluid:not(.container-header){
+.container-fluid:not(.container-header) {
   margin-top: 94px;
 }
-@media only screen and (max-width:1186px){
-  .navbar-header{
-    width: 100%;
-  }
-  .navbar-header img{
-    margin: auto;
-  }
-  #menu ul li:first-child{
-    margin:0
-  }
-  div.container-fluid:not(.container-header){
-    margin-top: 126px;
-  }
-}
-@media only screen and (max-width:989px){
-  div.container-fluid:not(.container-header){
-    margin-top: 158px;
-  }
-}
-@media only screen and (max-width:767px){
-  .navbar-header{
+@media only screen and (max-width: 767px) {
+  .navbar-header {
     width: fit-content;
   }
-  div.container-fluid:not(.container-header){
+  div.container-fluid:not(.container-header) {
     margin-top: 94px;
   }
 }
-.container-fluid, .col, .row{
+@media only screen and (max-width: 989px) {
+  div.container-fluid:not(.container-header) {
+    margin-top: 158px;
+  }
+}
+@media only screen and (max-width: 1186px) {
+  .navbar-header {
+    width: 100%;
+  }
+  .navbar-header img {
+    margin: auto;
+  }
+  #menu ul li:first-child {
+    margin: 0
+  }
+  div.container-fluid:not(.container-header) {
+    margin-top: 126px;
+  }
+}
+.container-fluid, .col, .row {
   justify-content: center;
   text-align: center;
   align-self: center;
 }
-h1{
+h1 {
   font: 500 48px/64px Poppins;
   text-transform: uppercase;
   color: white;
   max-width: 640px;
   margin: 1% auto 3%;
 }
-h2{
+h2 {
   font: bold 40px/52px Poppins;
   text-transform: uppercase;
   width: fit-content;
   padding: 0 30px;
   margin: auto;
 }
-h5{
+h5 {
   font: 18px/24px Poppins;
   text-transform: uppercase;
 }
-#first{
+#first {
   background: url(/img/first_bkground.png) no-repeat center center;
   min-height: 450px;
   height: 42vw;
   max-height: 1000px;
   padding: 20px;
 }
-#first a{
+#first a {
   width: 50px;
   position: fixed;
   top: 40%;
   right: 20%;
   z-index: 1;
 }
-#espaco{
+#espaco {
   padding: 35px 0;
   background-color: #F2F2F2;
 }
@@ -112,15 +112,15 @@ h5{
   margin-bottom: 20px;
   background: linear-gradient(#F2F2F2 50%, #F05A28 50%);
 }
-#espaco .col:not(#title):not(.pop_up){
+#espaco .col:not(#title):not(.pop_up) {
   min-width: 300px;
   max-width: 440px;
   padding: 10px;
 }
-#espaco .hero-img{
+#espaco .hero-img {
   padding-bottom: 100%;
 }
-#espaco h6{
+#espaco h6 {
   background-color: black;
   position: absolute;
   top: 60px;
@@ -128,23 +128,23 @@ h5{
   color: white;
   font: bold 24px/35px;
 }
-#work-space{
+#work-space {
   background: url(/img/____3096\ GERAL\ LATERAL\ SALAS.png) no-repeat center center;
   background-size: cover;
 }
-#meeting-space{
+#meeting-space {
   background: url(/img/____3117\ SALA\ COM\ 3\ MESAS.png) no-repeat center center;
   background-size: cover;
 }
-#work-table{
+#work-table {
   background: url(/img/____3165\ MESA\ VIDRO\ SAIDA.png) no-repeat center center;
   background-size: cover;
 }
-.modal-header{
+.modal-header {
   border: none;
   padding-bottom: 0;
 }
-.modal-header button.close{
+.modal-header button.close {
   width: 28px;
   height: 28px;
   border-radius: 50%;
@@ -158,32 +158,32 @@ h5{
   font-weight: 500;
   font-family: serif;
 }
-#space_popup .close:focus, #space_popup button.close:hover, #servico_popup .close:focus, #servico_popup button.close:hover{
+#space_popup .close:focus, #space_popup button.close:hover, #servico_popup .close:focus, #servico_popup button.close:hover {
   opacity: 1;
   outline: unset;  
 }
-.modal-dialog{
+.modal-dialog {
   width: 95%;
   max-width: 1000px;
 }
-.modal-body{
+.modal-body {
   padding: 0 55px 44px;
 }
-#space_popup ul, #servico_popup ul{
+#space_popup ul, #servico_popup ul {
   list-style: none;
   padding: 0;
 }
-.modal-title{
+.modal-title {
   font: bold 40px/60px Poppins;
   text-transform: uppercase;
   margin-bottom: 55px;
 }
-#space_popup li, #servico_popup li{
+#space_popup li, #servico_popup li {
   text-align: start;
   font: 500 28px/42px Poppins;
   padding-bottom: 16px;
 }
-#space_popup li:before, #servico_popup li:before{
+#space_popup li:before, #servico_popup li:before {
   content: "\2022";
   color: #2C17B1;
   font-weight: 900;
@@ -191,20 +191,20 @@ h5{
   font-size: 30px;
   margin-right: 14px;
 }
-#space_popup p, #servico_popup p{
+#space_popup p, #servico_popup p {
   font: 500 24px/32px Poppins;
   padding: 40px 0 56px;
 }
-.modal-body .col{
+.modal-body .col {
   min-width: unset;
   max-width: 290px;
   padding: 10px;
 }
-.modal-body img{
+.modal-body img {
   max-width: 100%;
   object-fit: contain;
 }
-#servicos, #pics, #uniao{
+#servicos, #pics, #uniao {
   padding: 90px 0;
   max-width: 1320px;
   margin: auto;
@@ -214,7 +214,7 @@ h5{
   background: linear-gradient(white 50%, #F2F2F2 50%);
   margin-bottom: 5px;
 }
-#servicos > .col:not(#title){
+#servicos > .col:not(#title) {
   align-self: stretch;
   background-color: #F2F2F2;
   max-width: 220px;
@@ -222,63 +222,61 @@ h5{
   margin: 28px;
   padding: 0;
 }
-#servicos .col a{
+#servicos .col a {
   display: inline-block;
   padding: 45px 20px;
   color: black;
   width: 100%;
   height: 100%;
 }
-#servicos .col a:hover, #blog .col a:hover{
+#servicos .col a:hover, #blog .col a:hover {
   text-decoration: none;
 }
-#servicos > .col img{
+#servicos > .col img {
   height: 170px;
   object-fit: none;
   width: min-content;
   margin-bottom: 23px;
 }
-#tour{
+#tour {
   background: linear-gradient(-11deg, white 35%, #F2F2F2 35%);
-  /*background-size: 2000px auto;
-  background-position: bottom left;*/
   min-height: 630px;
 }
-#title{
+#title {
   margin-bottom: 30px;
 }
-#piclibrary .c3{
+#piclibrary .c3 {
   max-width: 1250px;
   margin: auto;
 }
-#piclibrary .c3 .col{
+#piclibrary .c3 .col {
   align-self: stretch;
   padding: 15px 10px;
 }
-#piclibrary .c2 .col{
+#piclibrary .c2 .col {
   align-self: stretch;
   padding: 0 34px;
 }
-#piclibrary img, #zen img{
+#piclibrary img, #zen img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
-#zen{
+#zen {
   background-image: url(/img/Polígono\ 1.png), url(/img/Polígono\ 2.png);
   background-position: top left, top right;
   background-size: 30% auto;
   background-repeat: no-repeat;
 }
-#zen .col{
+#zen .col {
   max-width: 750px;
   margin-bottom: 24px;
 }
-#zen h2{
+#zen h2 {
   margin: 65px auto 35px;
   background: linear-gradient(white 50%, #F05A28 50%);
 }
-#zen p{
+#zen p {
   background-color: #2ECC71;
   padding: calc(20px + 6%);
   max-width: 630px;
@@ -286,34 +284,34 @@ h5{
   font: 20px/32px Poppins;
   margin: auto;
 }
-.nav-pills{
+.nav-pills {
   justify-content: center;
 }
-.nav-item{
+.nav-item {
   max-width: 25%;
 }
-.nav-link{
+.nav-link {
   padding: 24px 8px 0;
   max-width: 180px;
 }
-.nav-link.active{
+.nav-link.active {
   display: none;
   width: 0;
 }
-.tab-content{
+.tab-content {
   width: 100%;
   max-width: 650px;
   margin: auto;
 }
-#blog, #contact{
+#blog, #contact {
   background-color: #101010;
   padding: 35px 0;
 }
-#blog h2, #contact h2{
+#blog h2, #contact h2 {
   color: white;
   background: linear-gradient(#101010 50%, #2C17B1 50%);
 }
-#blog .col:not(#button):not(#title){
+#blog .col:not(#button):not(#title) {
   max-width: calc(100% / 3 - 64px);
   min-width: 260px;
   background-color: white;
@@ -321,152 +319,152 @@ h5{
   margin: 0 32px 48px;
   padding: 0;
 }
-@media only screen and (max-width:972px){
-  #blog .col:not(#button):not(#title){
-    max-width: calc(50% - 64px);
-    min-width: 200px;
-  }
-}
-@media only screen and (max-width:650px){
-  #blog .col:not(#button):not(#title){
-    max-width: calc(100% - 64px);
-  }
-  .container-fluid h1, .container-fluid h2{
-    font-size: 40px;
-  }
-  div.container-fluid{
-    padding: 0;
-  }
-  #espaco .col:not(#title):not(.pop_up){
-    min-width: 270px;
-  }
-}
-@media only screen and (min-width:1332px){
-  #blog .col:not(#button):not(#title){
-    max-width: 380px;
-  }
-}
 #blog img {
   width: 100%;
 }
-h4{
+h4 {
   font: bold 24px/24px Segoe UI;
   text-transform: uppercase;
   text-align: start;
   color: #2C17B1;
   margin: 23px 0 14px 23px;
 }
-#blog p{
+#blog p {
   font: 16px/24px Poppins;
   color: black;
   text-align: start;
   padding: 0 23px 23px;
   margin: 0;
 }
-button.btn, input.btn{
+button.btn, input.btn {
   padding: 12px 70px;
   text-transform: uppercase;
   font: 500 24px/35px Poppins;
   border-color: white;
   color: white;
 }
-button.btn:hover, input.btn:hover, button.btn:active, input.btn:active{
+button.btn:hover, input.btn:hover, button.btn:active, input.btn:active {
   background-color: white;
   color: #2C17B1;
 }
-#uniao h2{
+#uniao h2 {
   color: #2C17B1;
   background: linear-gradient(white 50%, #F2F2F2 50%);
   margin-bottom: 35px;
 }
-#uniao p:first-of-type, #uniao p:last-of-type{
+#uniao p:first-of-type, #uniao p:last-of-type {
   font-weight: 600;
   margin-bottom: 40px;
 }
-#logo{
+#logo {
   margin: 40px 0 10px;
   width: 150px;
 }
-#uniao img:not(#logo){
+#uniao img:not(#logo) {
   width: 100%;
   height: 100%;
   object-fit: cover;
   object-position: left;
 }
-#social_media h2{
+#social_media h2 {
   margin-bottom: 20px;
   background: linear-gradient(white 50%, #F05A28 50%);
 }
-#social_media .col:not(#title){
+#social_media .col:not(#title) {
   padding: 15px 32px 90px;
   max-width: 140px;
 }
-#social_media i{
+#social_media i {
   font-size: 75px;
 }
-#facebook a{
+#facebook a {
   color: #4267B2;
 }
-#instagram img{
+#instagram img {
   width: 67px;
 }
-#linkedin a{
+#linkedin a {
   color: #2867B2;
 }
-#form_contact{
+#form_contact {
   max-width: 780px;
 }
-#mapa{
+#mapa {
   max-width: 390px;
 }
-#mapa p{
+#mapa p {
   font: Bold 16px/22px Poppins;
   color: white;
   margin: 32px 0;
 }
-iframe{
+iframe {
   max-width: 340px;
 }
-#contact form{
+#contact form {
   margin: 32px auto;
 }
-div.form-group:not(.form-row), .form-group .col{
+div.form-group:not(.form-row), .form-group .col {
   align-self: flex-start;
   text-align: left;
   padding: 0 15px;
 }
-.form-group{
+.form-group {
   margin-bottom: 25px;
 }
-#contact label{
+#contact label {
   color: white;
   font: 500 14px/21px Poppins;
 }
-mark{
-  color:#F23E3E;
+mark {
+  color: #F23E3E;
   font: 500 14px/21px Poppins;
   background-color: #101010;
 }
-#contact input:not([type="submit"]){
+#contact input:not([type="submit"]) {
   height: 50px;
 }
-#contact textarea{
+#contact textarea {
   height: 140px;
   padding: 12px;
 }
-#contact input:not([type="submit"]), #contact textarea{
+#contact input:not([type="submit"]), #contact textarea {
   background-color: #F2F2F2;
   border-radius: 10px;
   font: 16px/22px Poppins;
   color: black;
 }
-#form_contact .form-control.is-invalid, #form_contact .was-validated .form-control:invalid{
+#form_contact .form-control.is-invalid, #form_contact .was-validated .form-control:invalid {
   border-color: #F23E3E;
 }
-#form_contact .invalid-feedback{
+#form_contact .invalid-feedback {
   color: #F23E3E;
   font: 500 14px/21px Poppins;
 }
-*:focus{
+@media only screen and (max-width: 650px) {
+  #blog .col:not(#button):not(#title) {
+    max-width: calc(100% - 64px);
+  }
+  .container-fluid h1, .container-fluid h2 {
+    font-size: 40px;
+  }
+  div.container-fluid {
+    padding: 0;
+  }
+  #espaco .col:not(#title):not(.pop_up) {
+    min-width: 270px;
+  }
+}
+@media only screen and (max-width: 972px) {
+  #blog .col:not(#button):not(#title) {
+    max-width: calc(50% - 64px);
+    min-width: 200px;
+  }
+}
+@media only screen and (min-width: 1332px) {
+  #blog .col:not(#button):not(#title) {
+    max-width: 380px;
+  }
+}
+*:focus {
   outline: none 0px;
 }
