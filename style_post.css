@@ -40,14 +40,6 @@ p.side-text{
   max-width: 1200px;
   margin: 0 auto 88px;
 }
-@media only screen and (max-width:1150px){
-  #img_row{
-    margin: 0 -12px 88px 12px;
-  }
-  #p_4th .img-col{
-    margin: 0 -24px 0 24px;
-  }
-}
 @media only screen and (max-width: 768px){
   .container-fluid{
     padding: 44px 20px 0;
@@ -58,36 +50,45 @@ p.side-text{
   .container-fluid > .row{
     margin-bottom: 66px;
   }
-  #p_1st .img-col{
+  #p_1st .col.img-col{
     max-width: 400px;
-    margin: 66px auto 0;
+    margin: 0 -12px 66px 12px;
   }
   #p_1st p{
     max-width: unset;
   }
-  #p_4th .img-col, #p_5th .img-col{
+  #p_4th .col.img-col, #p_5th .col.img-col{
     max-width: 400px;
-    margin: 0 auto 66px;
+    margin-bottom: 66px;
+  }
+  #img_row{
+    height: 44vw;
   }
 }
-@media only screen and (max-width: 460px){
-  .row:not(#img_row) .img-col{
-    margin-right: -12px;
-    margin-left: 12px;
-  }
+#img_row .img-col{
+  margin: 0 -12px 88px 12px;
 }
 .col.img-col{
   padding: 0;
   border-radius: 5px;
+}
+#p_1st .img-col{
+  margin-left: calc(100% / 12 - 12px);
 }
 #p_1st .img-col, #img_row .img-col{  
   border: 1px solid #39E280;
 }
 #p_4th .img-col{
   border: 1px solid #6A7DFE;
+  margin-left: calc(4% + 12px);
+  margin-right: -12px;
+  max-width: calc(100% / 3 - 4%);
 }
 #p_5th .img-col{
   border: 1px solid #FC4C21;
+  margin-right: calc(4% - 12px);
+  margin-left: 12px;
+  max-width: calc(100% / 3 - 4%);
 }
 .col.img-col img{
   margin: -24px 24px 24px -24px;
@@ -97,10 +98,10 @@ p.side-text{
   box-shadow: 0 3px 6px #00000029;
 }
 #p_5th .txt-col{
-  padding: 0 0 0 20px;
+  padding: 0 0 0 4%;
 }
 #p_4th .txt-col{
-  padding: 0 20px 0 0;
+  padding: 0 4% 0 0;
 }
 #p_1st, #img_row, #p_4th, #p_5th{
   padding-top: 24px;

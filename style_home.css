@@ -1,12 +1,13 @@
 #menu{
   background-color: white;
-  padding: 25px 0;
+  padding: 15px;
 }
 #menu .navbar-brand img{
   width: 150px;
+  margin-bottom: 10px;
 }
 #menu li{
-  margin: 10px 0 0 2rem;
+  margin-left: 2rem;
 }
 #menu a{
   color: black;
@@ -16,12 +17,55 @@
   color:#F05A28;
   text-decoration: none;
 }
+#menu .navbar-toggler, #menu .navbar-toggler:focus{ 
+  box-shadow: 0 3px 6px #00000029;
+  outline: none;
+  margin-bottom: 10px;
+}
+#menu .navbar-toggler-icon{
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(240, 90, 40, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+#menu_toggle ul{
+  border-top: 1px solid #F05A28;
+  padding-top: 15px;
+  margin-top: 15px;
+}
+#menu_toggle li{
+  margin: 10px auto;
+}
 .container-header{
   max-width: 1200px;
   margin: auto;
 }
 .container-fluid:not(.container-header){
-  margin-top: 100px;
+  margin-top: 94px;
+}
+@media only screen and (max-width:1186px){
+  .navbar-header{
+    width: 100%;
+  }
+  .navbar-header img{
+    margin: auto;
+  }
+  #menu ul li:first-child{
+    margin:0
+  }
+  div.container-fluid:not(.container-header){
+    margin-top: 126px;
+  }
+}
+@media only screen and (max-width:989px){
+  div.container-fluid:not(.container-header){
+    margin-top: 158px;
+  }
+}
+@media only screen and (max-width:767px){
+  .navbar-header{
+    width: fit-content;
+  }
+  div.container-fluid:not(.container-header){
+    margin-top: 94px;
+  }
 }
 .container-fluid, .col, .row{
   justify-content: center;
@@ -29,11 +73,11 @@
   align-self: center;
 }
 h1{
-  font: semibold 48px/64px Poppins;
+  font: 500 48px/64px Poppins;
   text-transform: uppercase;
   color: white;
   max-width: 640px;
-  margin: 0 auto 100px;
+  margin: 1% auto 3%;
 }
 h2{
   font: bold 40px/52px Poppins;
@@ -153,8 +197,8 @@ h5{
 }
 .modal-body .col{
   min-width: unset;
-  max-width: 270px;
-  padding: 0;
+  max-width: 290px;
+  padding: 10px;
 }
 .modal-body img{
   max-width: 100%;
@@ -185,7 +229,7 @@ h5{
   width: 100%;
   height: 100%;
 }
-#servicos .col a:hover{
+#servicos .col a:hover, #blog .col a:hover{
   text-decoration: none;
 }
 #servicos > .col img{
@@ -236,7 +280,7 @@ h5{
 }
 #zen p{
   background-color: #2ECC71;
-  padding: 65px;
+  padding: calc(20px + 6%);
   max-width: 630px;
   color: white;
   font: 20px/32px Poppins;
@@ -286,6 +330,20 @@ h5{
 @media only screen and (max-width:650px){
   #blog .col:not(#button):not(#title){
     max-width: calc(100% - 64px);
+  }
+  .container-fluid h1, .container-fluid h2{
+    font-size: 40px;
+  }
+  div.container-fluid{
+    padding: 0;
+  }
+  #espaco .col:not(#title):not(.pop_up){
+    min-width: 270px;
+  }
+}
+@media only screen and (min-width:1332px){
+  #blog .col:not(#button):not(#title){
+    max-width: 380px;
   }
 }
 #blog img {
@@ -360,12 +418,14 @@ button.btn:hover, input.btn:hover, button.btn:active, input.btn:active{
 }
 #mapa{
   max-width: 390px;
-  padding-left: 0;
 }
 #mapa p{
   font: Bold 16px/22px Poppins;
   color: white;
   margin: 32px 0;
+}
+iframe{
+  max-width: 340px;
 }
 #contact form{
   margin: 32px auto;

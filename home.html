@@ -13,19 +13,14 @@
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/f15ae48ffc.js" crossorigin="anonymous"></script>
     <!-- Header -->
-    <!--<nav class="navbar navbar-default fixed-top" id="menu">
-      <button type="button" class="navbar-toggle d-md-none" data-toggle="collapse" data-target="#menu_toggle">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                        
-      </button>
-      <div class="container-fluid justify-content-center container-header">
+    <nav class="navbar navbar-default fixed-top" id="menu">
+      <div class="container-fluid justify-content-between justify-content-md-center container-header">
         <div class="navbar-header">
           <a class="navbar-brand" href="#">
             <img src="/img/JOIN.svg" alt="">
           </a>
         </div>
-        <ul class="nav navbar-nav flex-row justify-content-center">
+        <ul class="nav navbar-nav flex-row justify-content-center d-none d-md-flex">
           <li><a href="#espaco">Espaços</a></li>
           <li><a href="#servicos">Serviços</a></li>
           <li><a href="#tour">Tour 360°</a></li>
@@ -35,8 +30,23 @@
           <li><a href="#uniao">Sobre Nós</a></li>
           <li><a href="#contact">Fale Conosco</a></li>
         </ul>
+        <button type="button" class="navbar-toggler d-md-none navbar-light" data-toggle="collapse" data-target="#menu_toggle">
+          <span class="navbar-toggler-icon"></span>                        
+        </button>
+        <div class="collapse navbar-collapse d-md-none" id="menu_toggle">
+          <ul class="nav navbar-nav justify-content-center">
+            <li><a href="#espaco">Espaços</a></li>
+            <li><a href="#servicos">Serviços</a></li>
+            <li><a href="#tour">Tour 360°</a></li>
+            <li><a href="#pics">Fotos</a></li>
+            <li><a href="#zen">Espaço Zen</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#uniao">Sobre Nós</a></li>
+            <li><a href="#contact">Fale Conosco</a></li>
+          </ul>
+        </div>  
       </div>
-    </nav>-->
+    </nav>
   </head>
   <body>
     <div class="container-fluid">
@@ -160,10 +170,13 @@
               <div class="modal-body">
                 <h3 class="modal-title">Serviços</h3>
                 <ul class="justify-content-start">
-                  <li>4 Mesas</li>
-                  <li>16 Cadeiras</li>
-                  <li>2 Televisões</li>
-                  <li>Ar Condicionado</li>
+                  <li>Maquina de Snacks e Comidas</li>
+                  <li>Impressora</li>
+                  <li>Café</li>
+                  <li>Secretariado</li>
+                  <li>Luz</li>
+                  <li>Serviço de Limpeza</li>
+                  <li>Internet</li>
                   <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam dolore odit inventore velit cum, sequi laboriosam enim cumque nemo. Sapiente laboriosam nihil rem tempora voluptatibus voluptate unde alias perspiciatis reprehenderit.</p>
                 </ul>
                 <div class="row justify-content-lg-between">
@@ -223,13 +236,13 @@
         </div>
       </div>
       <div class="row" id="zen">
-        <div class="col col-lg-6 col-md-12 order-lg-1 align-self-start">
+        <div class="col col-lg-6 col-12 order-lg-1 align-self-start">
           <h2>Espaço Zen</h2>
           <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed…</p>
         </div>
-        <div class="col col-lg-6 col-md-12" id="picslider">
+        <div class="col col-lg-6 col-12" id="picslider">
           <div class="row">
-            <div class="col-12 order-md-1">
+            <div class="col-12 order-1">
               <ul class="nav nav-pills">
                 <li class="nav-item">
                   <a class="nav-link active" data-toggle="pill" href="#img1">
@@ -409,11 +422,11 @@
             <input type="submit" class="btn btn-outline-light" value="Enviar">
           </form>
         </div>
-        <div class="col-lg-1 d-none d-lg-block" style="max-width: 110px;"></div>
+        <div class="col-lg-1 d-none d-lg-block pr-0" style="max-width: 110px;"></div>
         <div class="col col-12 col-lg-5 order-lg-1 align-self-start" id="mapa">
           <h2>Onde estamos</h2>
           <p>Av. Pres. Antônio Carlos, 6627 - Pampulha, Belo Horizonte - MG, 31270-901</p>
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15010.959514756609!2d-43.97036378262209!3d-19.850956303607177!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2b9bd77c1b437ce9!2sBurguer%20King!5e0!3m2!1spt-BR!2sbr!4v1593629500330!5m2!1spt-BR!2sbr" width="320" height="320" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15010.959514756609!2d-43.97036378262209!3d-19.850956303607177!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2b9bd77c1b437ce9!2sBurguer%20King!5e0!3m2!1spt-BR!2sbr!4v1593629500330!5m2!1spt-BR!2sbr" width="100%" height="340px" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
         </div>
       </div>
     </div>
