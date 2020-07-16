@@ -117,10 +117,10 @@ a:hover {
   background-color: #FC4C21;
 }
 @media only screen and (max-width: 575px) {
-  #index .col {
+  .row#index .col {
     max-width: calc(100% - 48px);
   }
-  #blog .col:not(#title) {
+  .row#blog .col:not(#title) {
     max-width: calc(100% - 64px);
   }
   #nav_bar li.page-item.next .page-link, #nav_bar li.page-item.prev .page-link {

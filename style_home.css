@@ -41,10 +41,10 @@
   margin-top: 94px;
 }
 @media only screen and (max-width: 767px) {
-  .navbar-header {
+  div.navbar-header {
     width: fit-content;
   }
-  div.container-fluid:not(.container-header) {
+  body div.container-fluid:not(.container-header) {
     margin-top: 94px;
   }
 }
@@ -63,7 +63,7 @@
   #menu ul li:first-child {
     margin: 0
   }
-  div.container-fluid:not(.container-header) {
+  .container-fluid:not(.container-header) {
     margin-top: 126px;
   }
 }
@@ -91,7 +91,7 @@ h5 {
   text-transform: uppercase;
 }
 #first {
-  background: url(/img/first_bkground.png) no-repeat center center;
+  background: url("img/first_bkground.png") no-repeat center center;
   min-height: 450px;
   height: 42vw;
   max-height: 1000px;
@@ -129,15 +129,15 @@ h5 {
   font: bold 24px/35px;
 }
 #work-space {
-  background: url(/img/____3096\ GERAL\ LATERAL\ SALAS.png) no-repeat center center;
+  background: url("img/____3096\ GERAL\ LATERAL\ SALAS.png") no-repeat center center;
   background-size: cover;
 }
 #meeting-space {
-  background: url(/img/____3117\ SALA\ COM\ 3\ MESAS.png) no-repeat center center;
+  background: url("img/____3117\ SALA\ COM\ 3\ MESAS.png") no-repeat center center;
   background-size: cover;
 }
 #work-table {
-  background: url(/img/____3165\ MESA\ VIDRO\ SAIDA.png) no-repeat center center;
+  background: url("img/____3165\ MESA\ VIDRO\ SAIDA.png") no-repeat center center;
   background-size: cover;
 }
 .modal-header {
@@ -263,7 +263,7 @@ h5 {
   object-fit: cover;
 }
 #zen {
-  background-image: url(/img/Polígono\ 1.png), url(/img/Polígono\ 2.png);
+  background-image: url("img/Polígono\ 1.png"), url("img/Polígono\ 2.png");
   background-position: top left, top right;
   background-size: 30% auto;
   background-repeat: no-repeat;
@@ -441,7 +441,7 @@ mark {
   font: 500 14px/21px Poppins;
 }
 @media only screen and (max-width: 650px) {
-  #blog .col:not(#button):not(#title) {
+  .row#blog .col:not(#button):not(#title) {
     max-width: calc(100% - 64px);
   }
   .container-fluid h1, .container-fluid h2 {

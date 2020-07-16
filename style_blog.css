@@ -34,15 +34,15 @@
   margin-bottom: 24px;
 }
 #secundarias .col:first-child .hero-img {
-  background-image: url(/img_blog/marten-bjork-ANGrwTKxjlk-unsplash.png);
+  background-image: url("img_blog/marten-bjork-ANGrwTKxjlk-unsplash.png");
 }
 #secundarias .col:nth-child(2) .hero-img {
-  background-image: url(/img_blog/cowomen-XRGzgDmfjdw-unsplash.png);
+  background-image: url("img_blog/cowomen-XRGzgDmfjdw-unsplash.png");
 }
 #principal .hero-img {
   width: 100%;
   padding-bottom: 63%;
-  background: url(/img_blog/annie-spratt-hCb3lIB8L8E-unsplash.png) no-repeat center center;
+  background: url("img_blog/annie-spratt-hCb3lIB8L8E-unsplash.png") no-repeat center center;
   background-size: cover;
 }
 #categorias {

@@ -115,7 +115,7 @@ a:hover {
   text-decoration: none;
 }
 @media only screen and (max-width:650px) {
-  #more_posts .col:not(#title) {
+  .row#more_posts .col:not(#title) {
     max-width: calc(100% - 64px);
   }
 }
@@ -131,7 +131,7 @@ a:hover {
   }
   #p_1st .col.img-col {
     max-width: 400px;
-    margin: 0 -12px 66px 12px;
+    margin: 66px -12px 0 12px;
   }
   #p_1st p {
     max-width: unset;
